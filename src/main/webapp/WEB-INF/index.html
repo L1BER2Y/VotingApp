@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html>  
+<head>   
+<title>  
+Форма для голосования 
+</title>  
+ <meta content="text/html"; charset="utf-8">
+</head>  
+<body>  
+<form action="http://localhost:8080/voteApp-1.0-SNAPSHOT/vote" method="post">    
+<center>    
+<h1> Форма голосования </h1>   
+</center>
+
+<label>   
+Лучший исполнитель (1 из 4 вариантов):  
+</label><br>
+<input type="radio" value="Эминем" name="singer" checked> Эминем  
+<input type="radio" value="Инстасамка" name="singer"> Инстасамка  
+<input type="radio" value="Виктор Цой" name="singer"> Виктор Цой
+<input type="radio" value="Тото Кутуньо" name="singer"> Тото Кутуньо <br><br>
+<label>   
+Ваши любимые жанры (3-5 вариантов):  
+</label><br> 
+<input type="checkbox" value="Рок" name="genre"> Рок  
+<input type="checkbox" value="Рэп" name="genre"> Рэп   
+<input type="checkbox" value="Поп" name="genre"> Поп
+<input type="checkbox" value="Техно" name="genre"> Техно
+<input type="checkbox" value="Инди" name="genre"> Инди 
+<input type="checkbox" value="Классика" name="genre"> Классика
+<input type="checkbox" value="Джаз" name="genre"> Джаз
+<input type="checkbox" value="Шансон" name="genre"> Шансон
+<input type="checkbox" value="Регги" name="genre"> Регги
+<input type="checkbox" value="Соул" name="genre">  Соул <br><br>
+<label> Краткий текст о вас: </label><br>   
+<input type="text" name="about" placeholder= "Напишите немного о себе" size="100" required /> <br><br>
+<button type="submit" value="Отправить"> Отправить </button>  
+</form>  
+</body>  
+</html>  

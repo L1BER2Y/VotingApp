@@ -5,5 +5,5 @@
          metadata-complete="false"
          version="6.0">
     <display-name>VotingApp</display-name>
-    <description>Welcome to Tomcat World</description>
+    <description>Voting form</description>
 </web-app>
