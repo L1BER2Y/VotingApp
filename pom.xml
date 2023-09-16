@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>by.itAcademy.JD2</groupId>
+    <groupId>by.itAcademy.JD2.application</groupId>
     <artifactId>voteApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -40,7 +40,7 @@
                         </resource>
                     </webResources>
                     <webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
-                    <!-- <warName>${artifactId}##${version}</warName>-->
+                    <warName>${artifactId}##${version}</warName>
                 </configuration>
             </plugin>
 
@@ -51,5 +51,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
